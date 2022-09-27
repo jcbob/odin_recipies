@@ -1,0 +1,65 @@
+body{
+    background-color: #3D8361;
+    color: #D6CDA4;
+    font-family: Luminari, cursive, monospace;
+}
+
+a{
+    text-decoration: none;
+    color: #EEF2E6;
+}
+
+.title{
+    background-color: #1C6758;
+    font-size: 50px;
+    font-family: Luminari, cursive , monospace;
+    text-align: center;
+    font-variant: small-caps;
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: #D6CDA4;
+}
+
+.list{
+    margin-top: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
+
+    outline-style: solid;
+    outline-width: 15px;
+    outline-color: #D6CDA4;
+
+    background-color: #1C6758;
+}
+
+#recipie-list{
+    font-size: 28px;
+    /*font-variant: small-caps;*/
+
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.unlisted{
+    color: #EEF2E6;
+
+    list-style-type: disc;
+    font-size: 24px;
+    line-height: 2.5;
+
+    padding-left: 150px;
+}
+
+.food-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+#description{
+    width: 650px;;
+    word-wrap: break-word;
+}
+
+
