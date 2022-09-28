@@ -58,8 +58,36 @@ a{
 }
 
 #description{
-    width: 650px;;
-    word-wrap: break-word;
+    margin-top: 15px;
 }
 
+#description, #ingredients, #steps{
+    width: 650px;;
+    word-wrap: break-word;
+    margin-top: 15px;
+    background-color: #1C6758;
+    
+    outline-style:none;
+    outline-width: 5px;
+    outline-color: #D6CDA4;
+
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-right: 15px;
+    padding-bottom: 1px;
+
+    border-radius: 13px;
+    background: linear-gradient(145deg, #195d4f, #1e6e5e);
+    box-shadow:  7px 7px 4px #113d34,
+                 -7px -7px 4px #27917c;
+}
+
+ul ul li{
+    list-style-type: square;
+
+}
+
+.return{
+    margin-top: 55px;
+}
 
